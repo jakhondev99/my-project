@@ -1,3 +1,10 @@
 {
-    "liveServer.settings.port": 5501
+    "tailwindCSS.includeLanguages": {
+        "html": "html"
+    },
+    "liveServer.settings.port": 5501,
+    "tailwindCSS.experimental.classRegex": [
+        "class\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]"
+
+    ],
 }
